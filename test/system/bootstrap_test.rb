@@ -2,8 +2,8 @@ require 'application_system_test_case'
 
 module RailsNewIo
   class BootstrapTest < ApplicationSystemTestCase
-    BOOTSTRAP_TEXT_DANGER = 'rgb(239, 68, 68)'.freeze
-    BOOTSTRAP_DISPLAY_4 = '2.25rem'.freeze
+    BOOTSTRAP_TEXT_DANGER = 'rgb(220, 53, 69)'.freeze
+    BOOTSTRAP_DISPLAY_4 = '3.5rem'.freeze
 
     test 'Bootstrap is Enabled' do
       visit verify_index_path
